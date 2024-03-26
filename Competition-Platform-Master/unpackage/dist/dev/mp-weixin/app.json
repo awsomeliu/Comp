@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/AnswerPage/AnswerPage",
+    "pages/WelcomePage/WelcomePage",
+    "pages/HomePage/HomePage",
+    "pages/RegisterPage/RegisterPage",
+    "pages/LoginPage/LoginPage",
+    "pages/RankingListPage/RankingListPage",
+    "pages/LotteryPage/LotteryPage",
+    "pages/MyPage/MyPage",
+    "pages/AnswerPage_Change/AnswerPage_Change",
+    "pages/AnswerGradePage/AnswerGradePage",
+    "pages/PersonalGradePage/PersonalGradePage",
+    "pages/AnswerRecordPage/AnswerRecordPage",
+    "pages/PersonalInformationPage/PersonalInformationPage",
+    "pages/ShopPage/ShopPage",
+    "pages/RulesPage/RulesPage"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#1684FC",
+    "borderStyle": "white",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/HomePage/HomePage",
+        "iconPath": "static/tabbar/homepageicon.png",
+        "selectedIconPath": "static/tabbar/homepageicon_selected.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/RankingListPage/RankingListPage",
+        "iconPath": "static/tabbar/rankinglistpageicon.png",
+        "selectedIconPath": "static/tabbar/rankinglistpageicon_selected.png",
+        "text": "排行榜"
+      },
+      {
+        "pagePath": "pages/LotteryPage/LotteryPage",
+        "iconPath": "static/tabbar/lotterypageicon.png",
+        "selectedIconPath": "static/tabbar/lotterypageicon_selected.png",
+        "text": "抽奖"
+      },
+      {
+        "pagePath": "pages/MyPage/MyPage",
+        "iconPath": "static/tabbar/mypageicon.png",
+        "selectedIconPath": "static/tabbar/mypageicon_selected.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

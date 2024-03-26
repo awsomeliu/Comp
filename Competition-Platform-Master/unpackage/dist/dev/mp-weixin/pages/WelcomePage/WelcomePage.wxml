@@ -1,0 +1,1 @@
+<view class="container"><view class="title">门头沟科学素质竞赛</view><view class="footer"><button bindtap="login" class="login-btn">登录</button><view class="button-wrapper"></view><button bindtap="register" class="register-btn">注册</button></view></view>

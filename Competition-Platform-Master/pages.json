@@ -1,0 +1,146 @@
+{
+	"pages": [//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/AnswerPage/AnswerPage",
+			"style": {
+				"navigationBarTitleText": "答题页"
+			}
+		},
+		{
+			"path": "pages/WelcomePage/WelcomePage",
+			"style": {
+			"navigationBarTitleText": "欢迎页"
+			}
+		},
+		{
+			"path": "pages/HomePage/HomePage",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+
+		{
+			"path": "pages/RegisterPage/RegisterPage",
+			"style": {
+				"navigationBarTitleText": "注册页"
+			}
+		},
+		{
+			"path": "pages/LoginPage/LoginPage",
+			"style": {
+				"navigationBarTitleText": "登录页"
+			}
+		},
+		{
+			"path": "pages/RankingListPage/RankingListPage",
+			"style": {
+				"navigationBarTitleText": "排行榜"
+			}
+		},
+
+		{
+			"path": "pages/LotteryPage/LotteryPage",
+			"style": {
+				"navigationBarTitleText": "抽奖"
+			}
+		},
+		{
+			"path": "pages/MyPage/MyPage",
+			"style": {
+				"navigationBarTitleText": "我的页面"
+			}
+		},
+
+		{
+			"path": "pages/AnswerPage_Change/AnswerPage_Change",
+			"style": {
+				"navigationBarTitleText": "答题页1"
+			}
+		},
+		{
+			"path": "pages/AnswerGradePage/AnswerGradePage",
+			"style": {
+				"navigationBarTitleText": "答题成绩"
+			}
+		},
+		{
+			"path": "pages/PersonalGradePage/PersonalGradePage",
+			"style": {
+				"navigationBarTitleText": "个人成绩"
+			}
+		},
+		{
+			"path": "pages/AnswerRecordPage/AnswerRecordPage",
+			"style": {
+				"navigationBarTitleText": "答题记录"
+			}
+		},
+		{
+			"path": "pages/PersonalInformationPage/PersonalInformationPage",
+			"style": {
+				"navigationBarTitleText": "个人信息"
+			}
+		},
+		{
+			"path": "pages/ShopPage/ShopPage",
+			"style": {
+				"navigationBarTitleText": "商城"
+			}
+		},
+		{
+			"path": "pages/RulesPage/RulesPage",
+			"style": {
+				"navigationBarTitleText": "RulesPage"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#1684FC",
+		"borderStyle": "white",
+		"backgroundColor": "#FFFFFF",
+		"iconWidth": "24px",
+		"list": [{
+				"pagePath": "pages/HomePage/HomePage",
+				"iconPath": "static/tabbar/homepageicon.png",
+				"selectedIconPath": "static/tabbar/homepageicon_selected.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/RankingListPage/RankingListPage",
+				"iconPath": "static/tabbar/rankinglistpageicon.png",
+				"selectedIconPath": "static/tabbar/rankinglistpageicon_selected.png",
+				"text": "排行榜"
+			},
+			{
+				"pagePath": "pages/LotteryPage/LotteryPage",
+				"iconPath": "static/tabbar/lotterypageicon.png",
+				"selectedIconPath": "static/tabbar/lotterypageicon_selected.png",
+				"text": "抽奖"
+			},
+			{
+				"pagePath": "pages/MyPage/MyPage",
+				"iconPath": "static/tabbar/mypageicon.png",
+				"selectedIconPath": "static/tabbar/mypageicon_selected.png",
+				"text": "我的"
+			}
+		]
+	},
+	"uniIdRouter": {},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

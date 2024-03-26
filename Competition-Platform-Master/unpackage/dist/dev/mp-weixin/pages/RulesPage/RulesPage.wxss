@@ -1,0 +1,20 @@
+
+page {
+			
+			height: 100%;
+			text-align: center;
+}
+.compete{
+		margin-left: -20rpx;
+		margin-top: 20rpx;
+}
+.rules{
+		font-size: 50rpx;
+		font-family: "华文仿宋";
+}
+.pages{
+		border:  solid #eee;
+		font-size: 40rpx;
+		margin-left: 30rpx;
+		margin-right: 30rpx;
+}

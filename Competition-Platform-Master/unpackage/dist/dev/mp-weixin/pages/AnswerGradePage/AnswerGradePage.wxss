@@ -1,0 +1,61 @@
+
+.first {
+	height: 48vh; /* 设置顶部区域高度为页面高度的四分之一 */
+	background-color: #4F9AF3; /* 青色 */
+}
+.avatar {
+  position: fixed;
+  bottom: 72%; /* 距离底部 10px */
+  left: 39%; /* 距离左边 10px */
+  width: 80px; /* 头像宽度 */
+  height: 80px; /* 头像高度 */
+  border-radius: 50%; /* 头像圆角 */
+}
+.second {
+  position: fixed;
+  bottom: 68%;
+  left: 45%;
+}
+.third {
+  position: fixed;
+  bottom: 96%;
+  left: 12%;
+}
+.fourth {
+  position: fixed;
+  bottom: 96%;
+  left: 6%;
+  width: 20px; /* 图标宽度 */
+  height: 20px; /* 图标高度 */
+}
+.two {
+  width: 320px;
+  height: 170px;
+  border: 2px solid black; /* 黑色边框 */
+  background-color: white; /* 白色背景 */
+  z-index: 1; 
+  position: fixed;
+  bottom: 36%;
+  left: 7%;
+}
+.score {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-left: 125px;
+}
+.exam {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-left: 117px;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}

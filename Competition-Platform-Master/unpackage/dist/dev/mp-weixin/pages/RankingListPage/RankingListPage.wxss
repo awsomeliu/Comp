@@ -1,0 +1,103 @@
+
+
+/* index.wxss */
+.container.data-v-56eaf8ec {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.topSection.data-v-56eaf8ec {
+  height: 30vh; /* 设置顶部区域高度为页面高度的四分之一 */
+  background-color: #66BAF9; /* 青色 */
+}
+.bottomSection.data-v-56eaf8ec {
+  flex: 1; /* 使用剩余空间 */
+  background-color: white; 
+  border: 1px solid gray;
+  border-radius: 1px;
+  border-radius: 5px
+}
+.scoreRank.data-v-56eaf8ec {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: black;
+  font-size: 19px;
+  font-weight: bold;
+}
+.buttons.data-v-56eaf8ec {
+    width: 450rpx;
+  height: 100rpx;
+  display: flex;
+  margin-top: 50px;
+  margin-left: 75px;
+ border-radius: 5px
+}
+button.data-v-56eaf8ec {
+
+  border: 1px solid white;
+  border-radius: 1px;
+  margin: 0px; /* 调整按钮之间的间距 */
+  cursor: pointer;
+  font-weight: bold;
+  flex: 1; /* 让按钮大小相等 */
+ border-radius: 5px
+}
+.rankButton.data-v-56eaf8ec {
+  background-color: white; /* 蓝色 */
+  color: #1E90FF;
+}
+.myScoreButton.data-v-56eaf8ec {
+  background-color: #1E90FF;
+  color: white; /* 蓝色 */
+}
+.rankingSection.data-v-56eaf8ec {
+  position: absolute;
+  bottom: 70%; /* 距离底部 10px */
+  left: 3%; /* 距离左边 10px */
+  display: flex;
+  align-items: center;
+}
+.icon.data-v-56eaf8ec {
+  width: 20px; /* 图标宽度 */
+  height: 20px; /* 图标高度 */
+  margin-right: 1px; /* 图标右侧边距 */
+}
+.picker.data-v-56eaf8ec {
+  display: flex;
+  align-items: center;
+
+  padding: 5px 10px; /* 内边距 */
+  color: #000000; /* 文字颜色 */
+}
+.pickerText.data-v-56eaf8ec {
+  flex: 1; /* 文字部分占据剩余空间 */
+}
+.arrowIcon.data-v-56eaf8ec {
+  width: 20px; /* 下拉箭头图标宽度 */
+  height: 20px; /* 下拉箭头图标高度 */
+}
+.headerItem.data-v-56eaf8ec,
+.listItem.data-v-56eaf8ec {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  color: #000000;
+}
+.headerItem text.data-v-56eaf8ec,
+.listItem text.data-v-56eaf8ec {
+  width: 35%; /* 平均分配宽度 */
+  border-bottom: 1px solid rgb(197, 197, 197);
+}
+.headerItem text.data-v-56eaf8ec:first-child {
+  margin-left: 10px; /* 调整排名文本的左边距 */
+}
+.listItem text.data-v-56eaf8ec:first-child {
+  margin-left: 10px; /* 调整排名文本的左边距 */
+}
+.avatar.data-v-56eaf8ec {
+  width: 30px; /* 头像宽度 */
+  height: 30px; /* 头像高度 */
+  border-radius: 50%; /* 头像圆角 */
+  margin-right: 10px; /* 右边距 */
+}

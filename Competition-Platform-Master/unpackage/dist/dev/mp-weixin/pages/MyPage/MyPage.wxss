@@ -1,0 +1,39 @@
+
+.denglu.data-v-6bfed0b8 {
+  display: flex;
+  background: #ffffff;
+  height: 210rpx;
+  border-bottom: 1px solid rgb(197, 197, 197);
+  border-top: 1px solid rgb(197, 197, 197);
+}
+.touxiang.data-v-6bfed0b8 {
+  height: 150rpx;
+  width: 150rpx;
+  margin-left: 40rpx;
+  margin-right:40rpx;
+  margin-top: 28rpx;
+}
+.tixing.data-v-6bfed0b8 {
+  color: #9c9c9c;
+  margin-top: 30rpx;
+}
+.denglutext.data-v-6bfed0b8 {
+  margin-top: 50rpx;
+}
+
+/* 列表内容 */
+.tubiao.data-v-6bfed0b8 {
+  width: 50rpx;
+  height: 50rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+.liebiao.data-v-6bfed0b8 {
+  display: flex;
+  border-top: 1px solid rgb(197, 197, 197);
+  border-bottom: 1px solid rgb(197, 197, 197);
+  background-color: white;
+  margin-top: 35rpx;
+  height: 75rpx;
+  align-items: center;
+}
